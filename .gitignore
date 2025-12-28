@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# IntelliJ / IDE
+.idea/
+*.iml
+.vscode/
+
+# Maven / Java build
+target/
+*.class
+
+# Env / secrets
+.env
+*.pem
+*.key

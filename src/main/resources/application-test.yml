@@ -1,0 +1,8 @@
+anthropic:
+  enabled: true
+  api-key: "test-key"
+  model: "claude-3-5-sonnet-20240620"
+  temperature: 0.2
+youtube:
+  enabled: false
+  api-key: "test-youtube-key"

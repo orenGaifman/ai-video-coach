@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: ai-video-coach
+
+server:
+  port: 8081
+
+anthropic:
+  api-key: ${ANTHROPIC_API_KEY:}
+  model: ${ANTHROPIC_MODEL:claude-3-5-haiku-latest}
+  temperature: ${ANTHROPIC_TEMPERATURE:0.2}
+
+youtube:
+  api-key: ${YOUTUBE_API_KEY:your_actual_api_key_here}
+  base-url: ${YOUTUBE_BASE_URL:https://www.googleapis.com/youtube/v3}
+  debug: ${YOUTUBE_DEBUG:false}
+
+inspiration:
+  spam-patterns: "free money,crypto pump,giveaway,click here,subscribe for,100% guaranteed,make money fast,get rich quick"
+  min-view-count: 10000
+  recent-video-threshold-days: 7
